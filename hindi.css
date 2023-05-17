@@ -1,0 +1,14 @@
+﻿@font-face {
+    /* Font Name to use*/
+
+    font-family: 'HindiFont';
+    /* Font path*/
+    src: url('k010.TTF');
+}
+
+
+.hindiFont {
+    /* Assign the font*/
+    font-family: 'HindiFont';
+    
+}
