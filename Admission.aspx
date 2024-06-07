@@ -95,7 +95,7 @@ High School at the time of counseling.</span>
                                         </li>
                                         <br />
                                         <li><span><b>Age :</b>&nbsp</span><span> There is no any upper age limit but
-candidate must be a minimum of 14 years old on 1st July 2023.</span></li>
+candidate must be a minimum of 14 years old on 1st July 2024.</span></li>
                                     </ul>
                                 </div>
                             </td>
@@ -114,7 +114,7 @@ mark sheet and certificate of above examination at the time of counseling.</span
                                         <br />
                                         <li><span><b>Age :</b>&nbsp</span><span> There
 is no any upper age limit but candidate must be a minimum of 16 years old on 1st
-July 2023.</span></li>
+July 2024.</span></li>
                                     </ul>
                                 </div>
                             </td>
@@ -132,7 +132,7 @@ the time of counselling.</span>
                                         </li>
                                         <br />
                                         <li><span><b>Age :</b>&nbsp</span><span> There is no any upper age limit but candidate must be a
-minimum of 18 years old on 1st July 2023.</span></li>
+minimum of 18 years old on 1st July 2024.</span></li>
                                     </ul>
                                 </div>
                             </td>
@@ -156,7 +156,7 @@ minimum of 18 years old on 1st July 2023.</span></li>
 
                         <table class="table-bordered table-striped" width="100%">
                             <tr>
-                                <td><a href="brouchure.pdf" style="color: red; text-decoration: blink"><i class="fa fa-hand-o-right shadow-lg"></i>&nbsp;&nbsp;<u>Information Brouchure (download and read before filling of online application form)</u></a></td>
+                                <td><a href="pros.pdf" style="color: red; text-decoration: blink"><i class="fa fa-hand-o-right shadow-lg"></i>&nbsp;&nbsp;<u>Information Brouchure (download and read before filling of online application form)</u></a></td>
                             </tr>
                             <tr>
                                 <td><a href="instruction.pdf" style="color: green; text-decoration: blink"><i class="fa fa-hand-o-right shadow-lg"></i>&nbsp;&nbsp;<u>Most Important Instructions before filling online application form</u></a> </td>

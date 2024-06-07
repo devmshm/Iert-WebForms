@@ -8,7 +8,8 @@ using System.Data.SqlClient;
 using System.Web.Script.Serialization;
 using Entity;
 using System.IO;
-using static System.Net.Mime.MediaTypeNames;
+
+using System.Xml.Linq;
 
 /// <summary>
 /// Summary description for regService
@@ -56,7 +57,7 @@ public class regService : System.Web.Services.WebService
                         select new
                         {
                             APPLICATION_NO = dr["APPLICATION_NO"].ToString(),
-							 PASSWORDS = dr["PASSWORDS"].ToString(),
+                            PASSWORDS = dr["PASSWORDS"].ToString(),
                         }).ToList();
         return new JavaScriptSerializer().Serialize(feedback);
         //return result.ToString();
@@ -197,7 +198,7 @@ public class regService : System.Web.Services.WebService
 
                            Gpassed = dr["Gpassed"].ToString(),
                            Gpstate = dr["Gpstate"].ToString(),
-                           Gcollege = dr["Gcollege"].ToString(),                                                    
+                           Gcollege = dr["Gcollege"].ToString(),
                            Gbranch = dr["Gbranch"].ToString(),
                            GSubjects = dr["GSubjects"].ToString(),
                            GStream = dr["GStream"].ToString(),
@@ -208,7 +209,7 @@ public class regService : System.Web.Services.WebService
 
                            Dpassed = dr["Dpassed"].ToString(),
                            Dpstate = dr["Dpstate"].ToString(),
-                           Dcollege = dr["Dcollege"].ToString(),                                                   
+                           Dcollege = dr["Dcollege"].ToString(),
                            Dboard = dr["Dboard"].ToString(),
                            DSubjects = dr["DSubjects"].ToString(),
                            DStream = dr["DStream"].ToString(),
@@ -282,8 +283,8 @@ public class regService : System.Web.Services.WebService
                           PASSWORD = dr["PASSWORDS"].ToString(),
                           UTYP = dr["UTYP"].ToString(),
                           ccode = dr["course_code"].ToString(),
-                          navigation = dr["utyp"].ToString() == "1" ? "https://iertentrance.in/registration.aspx" : "https://iertentrance.in/registration.aspx",
-                          navigation1 = dr["utyp"].ToString() == "2" ? "https://iertentrance.in/registration.aspx" : "https://iertentrance.in/registration.aspx",
+                          navigation = dr["utyp"].ToString() == "1" ? "http://localhost:54935/registration.aspx" : "http://localhost:54935/registration.aspx",
+                          navigation1 = dr["utyp"].ToString() == "2" ? "http://localhost:49171/update.aspx" : "http://localhost:49171/update.aspx",
                       }).ToList();
 
         return new JavaScriptSerializer().Serialize(result).ToString();
@@ -434,19 +435,19 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
                            PHOTO_UPDATED = dr["PHOTO_UPDATED"].ToString(),
                            SIGN_UPDATED = dr["SIGN_UPDATED"].ToString(),
                            THUMB_UPDATED = dr["THUMB_UPDATED"].ToString(),
-						    CENTER_UPDATED = dr["CENTER_UPDATED"].ToString(),
-						   ORDERSTATUS=dr["ORDERSTATUS"].ToString().ToUpper(),
-						    ISSUBMITTED = dr["ISSUBMITTED"].ToString(),
+                           CENTER_UPDATED = dr["CENTER_UPDATED"].ToString(),
+                           ORDERSTATUS = dr["ORDERSTATUS"].ToString().ToUpper(),
+                           ISSUBMITTED = dr["ISSUBMITTED"].ToString(),
 
                        }).ToList();
         return new JavaScriptSerializer().Serialize(product);
     }
 
     [WebMethod]
-    public string center(string center1, string center2, string center3, string center4, string appno)
+    public string center(string center1, string center2, string center3, string center4, string center5, string center6, string center7, string appno)
     {
         clsReg objLogic = new clsReg();
-        DataTable result = objLogic.center(center1, center2, center3, center4, appno);
+        DataTable result = objLogic.center(center1, center2, center3, center4, center5, center6, center7, appno);
         var feedback = (from DataRow dr in result.Rows
                         select new
                         {
@@ -470,6 +471,9 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
                            center2 = dr["center2"].ToString(),
                            center3 = dr["center3"].ToString(),
                            center4 = dr["center4"].ToString(),
+                           center5 = dr["center5"].ToString(),
+                           center6 = dr["center6"].ToString(),
+                           center7 = dr["center7"].ToString(),
 
                        }).ToList();
         return new JavaScriptSerializer().Serialize(product);
@@ -499,13 +503,13 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
                        select new
                        {
                            issubmitted = dr["ISSUBMITTED"].ToString(),
-                          
+
 
                        }).ToList();
         return new JavaScriptSerializer().Serialize(product);
     }
-											
-[WebMethod]
+
+    [WebMethod]
     public string getpayInfo(string _appno)
     {
         string cmdtxt = @"SELECT * FROM payment WHERE APPLICATIONNO='" + _appno + "' AND STATUS='Success'";
@@ -524,7 +528,7 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
         return new JavaScriptSerializer().Serialize(product);
     }
 
-[WebMethod]
+    [WebMethod]
     public string getpayInfo1(string _appno)
     {
         string cmdtxt = @"SELECT * FROM payment WHERE APPLICATIONNO='" + _appno + "' ";
@@ -541,8 +545,8 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
 
                        }).ToList();
         return new JavaScriptSerializer().Serialize(product);
-    }											
-	    [WebMethod]
+    }
+    [WebMethod]
     public string GETREPORT()
     {
         string cmdtxt = @"SELECT COURSE,COURSE_CODE,sum(REGISTER+BASIC_UPDATED) TOTAL,SUM(REGISTER)REGISTER,SUM(BASIC_UPDATED) BASIC_UPDATED,SUM(ADDRESS_UPDATED)ADDRESS_UPDATED,
@@ -571,7 +575,7 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
         var product = (from DataRow dr in dtReturn.Rows
                        select new
                        {
-						   TOTAL = dr["TOTAL"].ToString(),
+                           TOTAL = dr["TOTAL"].ToString(),
                            REGISTER = dr["REGISTER"].ToString(),
                            COURSE = dr["COURSE"].ToString(),
                            BASIC_UPDATED = dr["BASIC_UPDATED"].ToString(),
@@ -585,9 +589,9 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
 
                        }).ToList();
         return new JavaScriptSerializer().Serialize(product);
-    }	
-											
- [WebMethod]
+    }
+
+    [WebMethod]
     public string GetotpData(string _appno, string _dob)
     {
         string CommandText = @"SELECT [APPLICATION_NO],[PASSWORDS],[DOB],[MOBILE_NO] FROM BASIC_DETAILS WHERE APPLICATION_NO='" + _appno + "' AND DOB='" + _dob + "'";
@@ -627,8 +631,68 @@ WHERE  BASIC_DETAILS.APPLICATION_NO='" + _appno + "' ";
         var RESULT = (from DataRow dr in dt.Rows
                       select new
                       {
-                         // otp = dr["otp"].ToString(),
+                          // otp = dr["otp"].ToString(),
                       }).ToList();
         return new JavaScriptSerializer().Serialize(RESULT).ToString();
-    }											
+    }
+
+    [WebMethod]
+    public string ADMITCARD(string _appno)
+    {
+        string cmdtxt = @"SELECT * FROM BASIC_DETAILS join centerdata on basic_details.application_no=centerdata.application_no JOIN CANDIDATE_DOCUMENTS ON BASIC_DETAILS.APPLICATION_NO=CANDIDATE_DOCUMENTS.APPLICATION_NO WHERE BASIC_DETAILS.APPLICATION_NO='" + _appno + "'";
+
+        DataTable dtReturn = GetDataResult(cmdtxt);
+
+        var product = (from DataRow dr in dtReturn.Rows
+                       select new
+                       {
+                           APPLICATION_NO = dr["APPLICATION_NO"].ToString(),
+                           CATEGORY = dr["CATEGORY"].ToString(),
+                           edate = dr["examdate"].ToString(),
+                           center = dr["examcenter"].ToString(),
+                           DOB = dr["DOB"].ToString(),
+                           FATHER_NAME = dr["FATHER_NAME"].ToString(),
+                           MOTHER_NAME = dr["MOTHER_NAME"].ToString(),
+                           NAME = dr["FIRST_NAME"].ToString() + ' ' + dr["MIDDLE_NAME"].ToString() + ' ' + dr["LAST_NAME"].ToString(),
+                           ROLL = dr["ROllNo"].ToString(),
+                           SUB_CATEGORY = dr["SUB_CATEGORY"].ToString(),
+                           COURSE = dr["COURSE"].ToString(),
+                           PHOTO = "/photo/" + dr["CANDIDATE_PHOTO"].ToString(),
+                           SIGN = "/photo/" + dr["CANDIDATE_SIGN"].ToString(),
+                           THUMB = "/photo/" + dr["CANDIDATE_THUMB"].ToString(),
+                       }).ToList();
+        return new JavaScriptSerializer().Serialize(product);
+    }
+
+
+    [WebMethod]
+    public string basic_correction(register _update)
+    {
+        clsReg objLogic = new clsReg();
+        DataTable result = objLogic.basic_correction(_update);
+        var feedback = (from DataRow dr in result.Rows
+                        select new
+                        {
+
+                        }).ToList();
+        return new JavaScriptSerializer().Serialize(feedback);
+        //return result.ToString();
+
+    }
+
+    [WebMethod]
+    public string Getregno(string _fname, string _lname, string _mname, string _mob, string _email,string _dob)
+    {
+        string CommandText = @"SELECT [APPLICATION_NO] FROM BASIC_DETAILS WHERE first_name='" + _fname + "' and last_name='" + _lname + "' and mother_name='" + _mname + "' and dob='" + _dob + "' AND mobile_no='" + _mob + "' and email_id='" + _email + "'";
+        DataTable dt = new clsReg().ExecuteCommand(CommandText);
+        var result = (from DataRow dr in dt.Rows
+                      select new
+                      {
+                          APPLICATION_NO = dr["APPLICATION_NO"].ToString(),
+                         
+
+                      }).ToList();
+        return new JavaScriptSerializer().Serialize(result).ToString();
+    }
+
 }

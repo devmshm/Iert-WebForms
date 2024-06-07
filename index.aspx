@@ -130,11 +130,15 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td colspan="2"><a style="color: green; font-weight: bold; font-size: 18px" href="brouchure.pdf" target="_blank">Information Brouchure  (download and read before filling of online application form)</a></td>
+                                        <td colspan="2"><a style="color: green; font-weight: bold; font-size: 18px" href="PROS.pdf" target="_blank">Information Brouchure  (download and read before filling of online application form)</a></td>
 
                                     </tr>
                                     <tr>
                                         <td colspan="2"><a style="color: blue; font-weight: bold; font-size: 18px" href="instruction.pdf" target="_blank">Most Important Instructions before filling online application form</a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><a style="color: red; font-weight: bold; font-size: 18px" href="placement.pdf" target="_blank">Placement Status Session 2022-23</a></td>
 
                                     </tr>
                                     <tr>
@@ -146,29 +150,29 @@
                                     </tr>
                                     <tr>
                                         <td>The opening date for online Application</td>
-                                        <td>11/04/2023</td>
+                                        <td>15/12/2024</td>
                                     </tr>
                                     <tr>
                                         <td>The closing date for online Application</td>
-                                        <td>03/06/2023</td>
+                                        <td>30/04/2024</td>
                                     </tr>
 
 
                                     <tr>
                                         <td>The closing date for Fee Payment</td>
-                                        <td>03/06/2023 </td>
+                                        <td>30/04/2024 </td>
                                     </tr>
-                                   <tr>
+                                    <tr>
                                         <td>Date of Entrance Examination for Three Years (6 semester) Engg. Diploma</td>
-                                        <td>June 30, 2023 (Friday) 09:00 AM-12:00 PM</td>
+                                        <td>11/06/2024</td>
                                     </tr>
                                     <tr>
                                         <td>Date of Entrance Examination for Two Years (4 semester) Management Diploma</td>
-                                        <td>July 03, 2023 (Monday) 09:00 AM-12:00 PM</td>
+                                        <td>14/06/2024</td>
                                     </tr>
                                     <tr>
-                                        <td>Date of Entrance Examination for 1½ Years (3 Semester) Post Diploma in Computer Application</td>
-                                        <td>July 03, 2023 (Monday) 09:00 AM-12:00 PM</td>
+                                        <td>Date of Entrance Examination for 1&#189; Years (3 Semester) Post Diploma in Computer Application</td>
+                                        <td>14/06/2024</td>
                                     </tr>
 
                                 </tbody>
@@ -226,11 +230,17 @@
                                     </tr>
 
                                     <tr>
-                                        <td style="text-align: right">
+                                        <td colspan="2" style="text-align: center">
                                             <button class="btn btn-outline-success shadow bt-border" id="btnLog">Login</button>
                                         </td>
+
+                                    </tr>
+                                    <tr>
                                         <td>
                                             <a href="https://iertentrance.in/forget.aspx" class="btn btn-outline-primary nav-border shadow-lg pull-right"><i>Forget Password ?</i></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://iertentrance.in/find.aspx" class="btn btn-outline-warning nav-border shadow-lg pull-left"><i>Forget Reg No ?</i></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -250,7 +260,7 @@
                     <div class="column1">
                         <div class="heading">
                             <h3 class="head text-white">Apply for Admission</h3>
-                            <h4>2023 applications are now open</h4>
+                            <h4>2024 applications are now open</h4>
                             <p class="my-3 text-white">
                                 <!--Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
                                 Nulla mollis dapibus nunc, ut rhoncus
@@ -323,8 +333,8 @@
                             <li>
                                 <p><span class="fa fa-map-marker"></span>26, Chaitham Lines, Prayagraj, Uttar Pradesh 211002.</p>
                             </li>
-                            <li><a href="#"><span class="fa fa-phone"></span>Technical Helpline : &nbsp;8601111522 (From 11:00 A.M to 5:00 P.M)</a></li>
-                            <li><a href="mailto:corporate-mail@support.com" class="mail"><span class="fa fa-envelope-open-o"></span>helpdesk@iertentrance.in</a></li>
+                            <li><%--<a href="#"><span class="fa fa-phone"></span>Technical Helpline : &nbsp;8601111522 (From 11:00 A.M to 5:00 P.M)</a>--%></li>
+                            <li><a href="mailto:helpdesk2024@iertentrance.in" class="mail"><span class="fa fa-envelope-open-o"></span>helpdesk2024@iertentrance.in</a></li>
                         </ul>
                         <%-- <div class="main-social-footer-29">
                             <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
@@ -341,13 +351,7 @@
                     <div class="footer-list-29 footer-2">
                     </div>
                 </div>
-                <div class="d-grid grid-col-2 bottom-copies">
-                    <p class="copy-footer-29">© 2020 Mastery. All rights reserved | Designed by <a href="https://w3layouts.com">W3layouts</a></p>
-                    <ul class="list-btm-29">
-                        <%-- <li><a href="#link">Privacy policy</a></li>
-                        <li><a href="#link">Terms of service</a></li>--%>
-                    </ul>
-                </div>
+
             </div>
         </div>
         <!-- move top -->
@@ -373,7 +377,7 @@
         </script>
 
         <script src="plug/jquery/jquery.cookie.js"></script>
-        <script src="data_script/login.js"></script>
+        <script src="data_script/login.js?v=1.0.2"></script>
         <%-- <script src="../assets/js/jquery-3.3.1.min.js"></script>--%>
     </section>
 </asp:Content>

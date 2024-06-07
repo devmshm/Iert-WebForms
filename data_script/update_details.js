@@ -134,7 +134,8 @@ $('#btnupdatebasic').click(function () {
             $('#updatemodal').modal();
             $('#btnReg').attr("disabled", "disabled");
             Info();
-			stepstatus();
+            stepstatus();
+            stepstatus1();
             $('#addresslist').addClass("active");
             $('#addresslist').addClass("shadow");
             $('#basiclist').removeClass("active");

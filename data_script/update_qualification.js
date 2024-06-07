@@ -8,21 +8,31 @@ $(document).ready(function () {
 $('#btnupdateEdu').click(function () {
     debugger;
     if (x[0].ccode == '1') {
-        if (hsrequired() === false)
-            return false;
+        if ($('#ddlhpass option:selected').val() == 'Passed') {
+            if (hsrequired() === false)
+                return false;
+        }
     }
     if (x[0].ccode == '2') {
-        if (hsrequired() === false)
-            return false;
-        else if (IMrequired() === false)
-            return false;
+        if ($('#ddlhpass option:selected').val() == 'Passed') {
+            if (hsrequired() === false)
+                return false;
+        }
+        if ($('#ddlipass option:selected').val() == 'Passed') {
+            if (IMrequired() === false)
+                return false;
+        }
     }
 
     if (x[0].ccode == '3') {
-        if (hsrequired() === false)
-            return false;
-        else if (IMrequired() === false)
-            return false;
+        if ($('#ddlhpass option:selected').val() == 'Passed') {
+            if (hsrequired() === false)
+                return false;
+        }
+        if ($('#ddlipass option:selected').val() == 'Passed') {
+            if (IMrequired() === false)
+                return false;
+        }
     }
 
     var _reg = {};
@@ -53,7 +63,7 @@ $('#btnupdateEdu').click(function () {
     else {
         _reg.HStream = $('#ddlhstream option:selected').text();
     }
-   
+
     _reg.Hcollege = $("#txthcollege").val();
     _reg.Hyear = $("#txthyp").val();
     _reg.HSubjects = $("#txthsub").val();
@@ -168,7 +178,8 @@ $('#btnupdateEdu').click(function () {
             $('#txtmsg').html('Educational Details Updated.');
             $('#updatemodal').modal();
             eduInfo();
-			stepstatus();
+            stepstatus();
+            stepstatus1();
             $('#doclist').addClass("active");
             $('#edulist').removeClass("active");
             $('#documents').addClass("active");
@@ -280,6 +291,7 @@ function hsrequired() {
     var hpass;
     var hpstate;
     var hboard;
+
 
     if ($("#ddlhpass option:selected").val() == '-1') {
         hpass = $("#dvhpass").val();

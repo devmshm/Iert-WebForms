@@ -40,7 +40,7 @@ $(document).ready(function () {
 
 
 function GETREPORT() {
-    var obj = { '': ''};
+    var obj = { '': '' };
     $.ajax({
         type: "POST",
         url: "../regService.asmx/GETREPORT",
@@ -48,12 +48,15 @@ function GETREPORT() {
         contentType: "application/json;charset=utf-8",
         dataType: "json",
 
-        success: function (Result) {          
+        success: function (Result) {
             Result = JSON.parse(Result.d);
             if (Result.length > 0) {
-             
+
                 $.each(Result, function (key, value) {
+
                     $('#tbllist tbody').append(' <tr style="text-align:center"><td>' + (key + 1) + '</td><td>' + value.COURSE + '</td><td>' + value.TOTAL + '</td><td>' + value.REGISTER + '</td><td>' + value.BASIC_UPDATED + '</td><td>' + value.ADDRESS_UPDATED + '</td><td>' + value.EDU_UPDATED + '</td><td>' + value.PHOTO_UPDATED + '</td><td>' + value.SIGN_UPDATED + '</td><td>' + value.THUMB_UPDATED + '</td><td>' + value.PAYMENTSTATUS + '</td><td>' + value.SUBMIT + '</td></tr></tbody></tbody>');
+                    //$('#tbllist tbody').append(' <tr style="text-align:center"><td>' + (key + 1) + '</td><td>' + value.COURSE + '</td><td>' + value.TOTAL + '</td><td>' + value.PAYMENTSTATUS + '</td><td>' + value.SUBMIT + '</td></tr></tbody></tbody>');
+
                 });
             }
         },

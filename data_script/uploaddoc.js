@@ -3,7 +3,7 @@ $(document).ready(function () {
     docInfo();
 
     $(document).on("change", "input[type=file]", function (event) {
-        
+
         var $Control = $(this);
         var $row = $(this).closest('tr').find('td')
         var type = $(this).attr("data-type");
@@ -64,12 +64,13 @@ $('#btnphoto').click(function () {
 
         success: function (r) {
             docInfo();
-			stepstatus();
+            stepstatus();
+            stepstatus1();
             $('#updatemodalhead').html('Information');
             $('#txtmsg').html('Photograph Updated.');
             $('#updatemodal').modal();
             $('#btnphoto').hide();
-           
+
 
         },
         error: function (r) {
@@ -108,7 +109,8 @@ $('#btnsign').click(function () {
             $('#updatemodal').modal();
             $('#btnsign').hide();
             docInfo();
-stepstatus();
+            stepstatus();
+            stepstatus1();
         },
         error: function (r) {
             //$('#exampleModalLabel').html('Information');
@@ -146,7 +148,8 @@ $('#btnthumb').click(function () {
             $('#updatemodal').modal();
             $('#btnthumb').hide();
             docInfo();
-stepstatus();
+            stepstatus();
+            stepstatus1();
         },
         error: function (r) {
             //$('#exampleModalLabel').html('Information');

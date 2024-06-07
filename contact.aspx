@@ -23,30 +23,27 @@
 
                                     <div class="cont-add-rgt">
                                         <h4>Email:</h4>
-                                        <a href="mailto:helpdesk@iertentrance.in">
-                                            <p class="contact-text-sub">helpdesk@iertentrance.in</p>
+                                        <a href="mailto:helpdesk2024@iertentrance.in">
+                                            <p class="contact-text-sub">helpdesk2024@iertentrance.in</p>
                                         </a>
                                     </div>
                                     <div class="cont-add-lft">
                                         <span class="fa fa-envelope" aria-hidden="true"></span>
                                     </div>
                                 </div>
-                                <div class="cont-add">
+                             <%--   <div class="cont-add">
 
                                     <div class="cont-add-rgt">
                                         <h4>Technical Helpline </h4>
                                         <a href="tel:+8601111522">
                                             <p class="contact-text-sub">8601111522 (11:00 A.M to 5:00 P.M)</p>
                                         </a>
-                                        <%-- <br />
-                                        <h4>Timing</h4>
-
-                                        <p>From 10:00 A.M to 6:00 P.M</p>--%>
+                                      
                                     </div>
                                     <div class="cont-add-lft">
                                         <span class="fa fa-phone" aria-hidden="true"></span>
                                     </div>
-                                </div>
+                                </div>--%>
 
                             </div>
                         </div>

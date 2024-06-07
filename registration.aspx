@@ -89,11 +89,12 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-<div class="container">
-        <marquee class=" nprintdiv" width="100%" style="font-weight: bold; font-size: 20px;  text-align: center" direction="left"><span style="color: red;">Candidate must complete all the steps otherwise application form will consider as Incomplete and he/she will not be able to download/print application form.</span><br/>
-	<span style="color:blue;">Note&nbsp;<sup>*</sup>&nbsp;:&nbsp;</span><span>If you already paid and fee status is showing failure/aborted, kindly mail us your fee receipt and screenshot of successful transaction  on <a href="#">helpdesk@iertentrance.in</a> from your registered Email ID.</span>
-	</marquee>
-	</div>
+    <div class="container">
+        <marquee class=" nprintdiv" width="100%" style="font-weight: bold; font-size: 20px; text-align: center" direction="left">
+            <span style="color: red;">Candidate must complete all the steps otherwise application form will consider as Incomplete and he/she will not be able to download/print application form.</span><br />
+            <span style="color: blue;">Note&nbsp;<sup>*</sup>&nbsp;:&nbsp;</span><span>If you already paid and fee status is showing failure/aborted, kindly mail us your fee receipt and screenshot of successful transaction  on <a href="#">helpdesk2024@iertentrance.in</a> from your registered Email ID.</span>
+        </marquee>
+    </div>
     <hr />
     <div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container" style="padding-bottom: 20px; padding-top: 10px">
@@ -125,13 +126,13 @@
                         Center Choice
                     </a>
 
-                  
+
                     <a href="#" class="list-group-item text-center shadow" id="pay">
                         <h4 class="fa fa-rupee"></h4>
                         <br />
                         Fee Payment
                     </a>
-                   <a href="#" class="list-group-item text-center shadow" id="finallist">
+                    <a href="#" class="list-group-item text-center shadow" id="finallist">
                         <h4 class="glyphicon glyphicon-file"></h4>
                         <br />
                         <div id="apptext"></div>
@@ -480,17 +481,17 @@
                                             </td>
                                             <td>
                                                 <div class="form-inline">
-                                                    <%--<label for="ddlcity" class="col-sm-4">
+                                                    <%-- <label for="ddlcity" class="col-sm-4">
                                                     <span class="h6 small  text-muted pt-1 pl-2 pr-2">State</span>
-                                                </label>
-                                                <select class="form-control  fom-inline" id="ddlstates">
-                                                    <option>-- Select State --</option>
-                                                </select>--%>
+                                                </label>--%>
+                                                    <select class="form-control  fom-inline" id="ddlstates">
+                                                        <option value="-1">-- Select State --</option>
+                                                    </select>
                                                     <input type="text" class="col-md-4 form-control" id="dvstate" disabled="disabled" />
                                                     &nbsp;
-                                                <select class="form-control-lg col-md-4 isddlvalid" style="text-transform: uppercase;" id="ddlstates">
+                                                <%--<select class="form-control-lg col-md-4 isddlvalid" style="text-transform: uppercase;" id="ddlstates">
                                                     <option value="-1">Select</option>
-                                                </select>
+                                                </select>--%>
                                                 </div>
                                             </td>
                                         </tr>
@@ -564,18 +565,17 @@
                                             </td>
                                             <td>
                                                 <div class="form-inline">
-
-                                                    <%--    <label for="ddlcity" class="col-sm-4">
+                                                    <%-- <label for="ddlcity" class="col-sm-4">
                                                     <span class="h6 small  text-muted pt-1 pl-2 pr-2">State</span>
-                                                </label>
-                                                <select class="form-control " id="ddlpoststates">
-                                                    <option value="-1">-- Select State --</option>
-                                                </select>--%>
+                                                </label>--%>
+                                                    <select class="form-control " id="ddlpoststates">
+                                                        <option value="-1">-- Select State --</option>
+                                                    </select>
                                                     <input type="text" class="col-md-4 form-control" id="dvpoststate" disabled="disabled" />
                                                     &nbsp;
-                                                <select class="form-control-lg col-md-4 isddlvalid" style="text-transform: uppercase;" id="ddlpoststates">
+                                                <%--<select class="form-control-lg col-md-4 isddlvalid" style="text-transform: uppercase;" id="ddlpoststates">
                                                     <option value="-1">Select</option>
-                                                </select>
+                                                </select>--%>
                                                 </div>
                                             </td>
                                         </tr>
@@ -1123,11 +1123,13 @@
                                                 <td style="padding: 5px">
                                                     <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter1">
                                                         <option value="-1">-- Select City--</option>
-                                                        <option value="Allahabad">Allahabad</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
                                                         <option value="Varanasi">Varanasi</option>
-
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
                                                         <option value="Gorakhpur">Gorakhpur</option>
-                                                        <option value="Ayodhya">Ayodhya</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
                                                     </select>
                                                 </td>
                                             </tr>
@@ -1139,11 +1141,13 @@
                                                 <td style="padding: 5px">
                                                     <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter2">
                                                         <option value="-1">-- Select City--</option>
-                                                        <option value="Allahabad">Allahabad</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
                                                         <option value="Varanasi">Varanasi</option>
-
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
                                                         <option value="Gorakhpur">Gorakhpur</option>
-                                                        <option value="Ayodhya">Ayodhya</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
                                                     </select>
                                                 </td>
                                             </tr>
@@ -1155,11 +1159,13 @@
                                                 <td style="padding: 5px">
                                                     <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter3">
                                                         <option value="-1">-- Select City--</option>
-                                                        <option value="Allahabad">Allahabad</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
                                                         <option value="Varanasi">Varanasi</option>
-
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
                                                         <option value="Gorakhpur">Gorakhpur</option>
-                                                        <option value="Ayodhya">Ayodhya</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
                                                     </select>
                                                 </td>
                                             </tr>
@@ -1171,11 +1177,67 @@
                                                 <td style="padding: 5px">
                                                     <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter4">
                                                         <option value="-1">-- Select City--</option>
-                                                        <option value="Allahabad">Allahabad</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
                                                         <option value="Varanasi">Varanasi</option>
-
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
                                                         <option value="Gorakhpur">Gorakhpur</option>
-                                                        <option value="Ayodhya">Ayodhya</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 5px; font-weight: bold">Select Examination City 5</td>
+                                                <td>
+                                                    <div class="control-label" id="lblcity5"></div>
+                                                </td>
+                                                <td style="padding: 5px">
+                                                    <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter5">
+                                                        <option value="-1">-- Select City--</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
+                                                        <option value="Varanasi">Varanasi</option>
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
+                                                        <option value="Gorakhpur">Gorakhpur</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 5px; font-weight: bold">Select Examination City 6</td>
+                                                <td>
+                                                    <div class="control-label" id="lblcity6"></div>
+                                                </td>
+                                                <td style="padding: 5px">
+                                                    <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter6">
+                                                        <option value="-1">-- Select City--</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
+                                                        <option value="Varanasi">Varanasi</option>
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
+                                                        <option value="Gorakhpur">Gorakhpur</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 5px; font-weight: bold">Select Examination City 7</td>
+                                                <td>
+                                                    <div class="control-label" id="lblcity7"></div>
+                                                </td>
+                                                <td style="padding: 5px">
+                                                    <select class="form-control-lg prefcenter isddlvalid" id="ddlcenter7">
+                                                        <option value="-1">-- Select City--</option>
+                                                        <option value="Prayagraj">Prayagraj</option>
+                                                        <option value="Mirzapur">Mirzapur</option>
+                                                        <option value="Varanasi">Varanasi</option>
+                                                        <option value="Kanpur">Kanpur</option>
+                                                        <option value="Lucknow">Lucknow</option>
+                                                        <option value="Gorakhpur">Gorakhpur</option>
+                                                        <option value="Ayodhya">Ayodhya Cantt</option>
                                                     </select>
                                                 </td>
                                             </tr>
@@ -1192,16 +1254,16 @@
 
                     </div>
 
-                   
+
                     <div class="bhoechie-tab-content" id="payment">
                         <div class="card">
                             <div class="card-body">
                                 <div class="table table-responsive">
                                     <table width="100%" id="tblpay" class="table-bordered">
-										<tr>
-                                            <td colspan="2" style="color:white;text-align:center" class="bg-secondary">Fee Payment
+                                        <tr>
+                                            <td colspan="2" style="color: white; text-align: center" class="bg-secondary">Fee Payment
                                             </td>
-                                           
+
                                         </tr>
                                         <tr>
                                             <td>Application No
@@ -1214,15 +1276,13 @@
                                             <td>Amount</td>
                                             <td>1350</td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td>Status</td>
                                             <td>
                                                 <div id="paystatus"></div>
                                             </td>
                                         </tr>
-<tr>
-
-                                          
+                                        <tr>
                                         </tr>
                                         <tr>
 
@@ -1233,13 +1293,13 @@
                                             </td>
                                         </tr>
                                     </table>
-									 <br />
+                                    <br />
                                     <hr />
                                     <table width="100%" id="tblallpay" class="table-bordered border-success" style="text-align: center">
-                                         <tr>
-                                            <td colspan="5" style="color:white;text-align:center" class="bg-secondary">Transaction Details
+                                        <tr>
+                                            <td colspan="5" style="color: white; text-align: center" class="bg-secondary">Transaction Details
                                             </td>
-                                           
+
                                         </tr>
                                         <tr>
                                             <td colspan="5"></td>
@@ -1253,18 +1313,18 @@
                                         </tr>
                                     </table>
                                     <hr />
-                                    
 
-                                        <div style="text-align: center">
-                                            <span style="color: red;">Note&nbsp;<sup>*</sup>&nbsp;:&nbsp;</span><span>If you already paid and fee status is showing failure/aborted, kindly mail us your fee receipt and screenshot of successful transaction  on <a href="#">helpdesk@iertentrance.in</a> from your registered Email ID.</span>
-                                        </div>
+
+                                    <div style="text-align: center">
+                                        <span style="color: red;">Note&nbsp;<sup>*</sup>&nbsp;:&nbsp;</span><span>If you already paid and fee status is showing failure/aborted, kindly mail us your fee receipt and screenshot of successful transaction  on <a href="#">helpdesk2024@iertentrance.in</a> from your registered Email ID.</span>
+                                    </div>
 
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>
-					<div class="bhoechie-tab-content" id="preview">
+                    <div class="bhoechie-tab-content" id="preview">
                         <div class="card">
                             <div class="card-header">
                                 <div>
@@ -1277,428 +1337,447 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table table-responsive" style="border: groove 1px">
-                                        <table width="100%" id="tbldetails" class="table-striped tbldetails">
-                                            <tr style="vertical-align: middle">
-                                                <td>Application Number</td>
-                                                <td colspan="2">
-                                                    <div id="dpappno"></div>
-                                                </td>
-                                                <td rowspan="5" style="text-align: center; width: 100px">
-                                                    <img id="dvpimg" src="1.jpeg" height="120px" width="120px" />
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Course</td>
-                                                <td colspan="2">
-                                                    <div id="dpcourse"></div>
-                                                </td>
+                            </div>
+                            <div class="card-body">
+                                <div class="table table-responsive" style="border: groove 1px">
+                                    <table width="100%" id="tbldetails" class="table-striped tbldetails">
+                                        <tr style="vertical-align: middle">
+                                            <td>Application Number</td>
+                                            <td colspan="2">
+                                                <div id="dpappno"></div>
+                                            </td>
+                                            <td rowspan="5" style="text-align: center; width: 100px">
+                                                <img id="dvpimg" src="1.jpeg" height="120px" width="120px" />
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Course</td>
+                                            <td colspan="2">
+                                                <div id="dpcourse"></div>
+                                            </td>
 
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Candidate Name</td>
-                                                <td colspan="2">
-                                                    <div id="dpcname"></div>
-                                                </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Candidate Name</td>
+                                            <td colspan="2">
+                                                <div id="dpcname"></div>
+                                            </td>
 
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Father's Name</td>
-                                                <td colspan="2">
-                                                    <div id="dpfname"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Mother's Name</td>
-                                                <td colspan="2">
-                                                    <div id="dpmname"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Date of Birth</td>
-                                                <td colspan="3">
-                                                    <div id="dpdob"></div>
-                                                </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Father's Name</td>
+                                            <td colspan="2">
+                                                <div id="dpfname"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Mother's Name</td>
+                                            <td colspan="2">
+                                                <div id="dpmname"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Date of Birth</td>
+                                            <td colspan="3">
+                                                <div id="dpdob"></div>
+                                            </td>
 
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Gender</td>
-                                                <td colspan="3">
-                                                    <div id="dpgen"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Nationality</td>
-                                                <td colspan="3">
-                                                    <div id="dpnat"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Domicile</td>
-                                                <td colspan="3">
-                                                    <div id="dpdomicile"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Category</td>
-                                                <td colspan="3">
-                                                    <div id="dpcat"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Sub Category</td>
-                                                <td colspan="3">
-                                                    <div id="dpsubcat"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Religion</td>
-                                                <td colspan="3">
-                                                    <div id="dpreligion"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>EWS</td>
-                                                <td colspan="3">
-                                                    <div id="dpews"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>If Parents Employed in</td>
-                                                <td colspan="3">
-                                                    <div id="dpemp"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Mobile No</td>
-                                                <td colspan="3">
-                                                    <div id="dpmobile"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Aadhar No.</td>
-                                                <td colspan="3">
-                                                    <div id="dpadhar"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Email Address</td>
-                                                <td colspan="3">
-                                                    <div id="dpmail"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Examination Center City Name 1</td>
-                                                <td colspan="3">
-                                                    <div id="dpcity1"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Examination Center City Name 2</td>
-                                                <td colspan="3">
-                                                    <div id="dpcity2"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Examination Center City Name 3</td>
-                                                <td colspan="3">
-                                                    <div id="dpcity3"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Examination Center City Name 3</td>
-                                                <td colspan="3">
-                                                    <div id="dpcity4"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Permanent address</td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Address</td>
-                                                <td>
-                                                    <div id="txtpadd1"></div>
-                                                </td>
-                                                <td>State</td>
-                                                <td>
-                                                    <div id="ddlpstate"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>City</td>
-                                                <td>
-                                                    <div id="ddlpcity"></div>
-                                                </td>
-                                                <td>Pincode</td>
-                                                <td>
-                                                    <div id="txtppincode"></div>
-                                                </td>
-                                            </tr>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Gender</td>
+                                            <td colspan="3">
+                                                <div id="dpgen"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Nationality</td>
+                                            <td colspan="3">
+                                                <div id="dpnat"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Domicile</td>
+                                            <td colspan="3">
+                                                <div id="dpdomicile"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Category</td>
+                                            <td colspan="3">
+                                                <div id="dpcat"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Sub Category</td>
+                                            <td colspan="3">
+                                                <div id="dpsubcat"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Religion</td>
+                                            <td colspan="3">
+                                                <div id="dpreligion"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>EWS</td>
+                                            <td colspan="3">
+                                                <div id="dpews"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>If Parents Employed in</td>
+                                            <td colspan="3">
+                                                <div id="dpemp"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Mobile No</td>
+                                            <td colspan="3">
+                                                <div id="dpmobile"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Aadhar No.</td>
+                                            <td colspan="3">
+                                                <div id="dpadhar"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Email Address</td>
+                                            <td colspan="3">
+                                                <div id="dpmail"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 1</td>
+                                            <td colspan="3">
+                                                <div id="dpcity1"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 2</td>
+                                            <td colspan="3">
+                                                <div id="dpcity2"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 3</td>
+                                            <td colspan="3">
+                                                <div id="dpcity3"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 4</td>
+                                            <td colspan="3">
+                                                <div id="dpcity4"></div>
+                                            </td>
+                                        </tr>
 
-                                            <tr style="vertical-align: middle">
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Postal address</td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Address</td>
-                                                <td>
-                                                    <div id="txtppostadd1"></div>
-                                                </td>
-                                                <td>State</td>
-                                                <td>
-                                                    <div id="ddlpoststate"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>City</td>
-                                                <td>
-                                                    <div id="ddlppostcity"></div>
-                                                </td>
-                                                <td>Pincode</td>
-                                                <td>
-                                                    <div id="txtppostpincode"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Fee Details</td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Fee Transaction No.</td>
-                                                <td colspan="3">
-                                                    <div id="refid"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Fee Transaction Date and Time</td>
-                                                <td colspan="3">
-                                                    <div id="paydate"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td>Fee Submitted status</td>
-                                                <td colspan="3">
-                                                    <div id="dvpaystatus"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Qualification Details</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="6" style="text-align: left; font-weight: bold">High School</td>
-                                            </tr>
-                                            <tr>
-                                                <td>College</td>
-                                                <td>Passed/Appearing</td>
-                                                <td>Board</td>
-                                                <td>State of Qualifying Exam</td>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 5</td>
+                                            <td colspan="3">
+                                                <div id="dpcity5"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 6</td>
+                                            <td colspan="3">
+                                                <div id="dpcity6"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Examination Center City Name 7</td>
+                                            <td colspan="3">
+                                                <div id="dpcity7"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Permanent address</td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Address</td>
+                                            <td>
+                                                <div id="txtpadd1"></div>
+                                            </td>
+                                            <td>State</td>
+                                            <td>
+                                                <div id="ddlpstate"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>City</td>
+                                            <td>
+                                                <div id="ddlpcity"></div>
+                                            </td>
+                                            <td>Pincode</td>
+                                            <td>
+                                                <div id="txtppincode"></div>
+                                            </td>
+                                        </tr>
 
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dphcollege"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphpass"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphboard"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphstate"></div>
-                                                </td>
+                                        <tr style="vertical-align: middle">
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Postal address</td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Address</td>
+                                            <td>
+                                                <div id="txtppostadd1"></div>
+                                            </td>
+                                            <td>State</td>
+                                            <td>
+                                                <div id="ddlpoststate"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>City</td>
+                                            <td>
+                                                <div id="ddlppostcity"></div>
+                                            </td>
+                                            <td>Pincode</td>
+                                            <td>
+                                                <div id="txtppostpincode"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Fee Details</td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Fee Transaction No.</td>
+                                            <td colspan="3">
+                                                <div id="refid"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fee Transaction Date and Time</td>
+                                            <td colspan="3">
+                                                <div id="paydate"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td>Fee Submitted status</td>
+                                            <td colspan="3">
+                                                <div id="dvpaystatus"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Qualification Details</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" style="text-align: left; font-weight: bold">High School</td>
+                                        </tr>
+                                        <tr>
+                                            <td>College</td>
+                                            <td>Passed/Appearing</td>
+                                            <td>Board</td>
+                                            <td>State of Qualifying Exam</td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>Subjects</td>
-                                                <td>Year of Passing</td>
-                                                <td>Maximum Marks</td>
-                                                <td>Obtained Marks</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dphsub"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphyp"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphmm"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dphom"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Stream</td>
-                                                <td colspan="3">
-                                                    <div id="dphstream"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Intermediate /(10+2) Equivalent</td>
-                                            </tr>
-                                            <tr>
-                                                <td>College</td>
-                                                <td>Passed/Appearing</td>
-                                                <td>Board</td>
-                                                <td>State of Qualifying</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dphcollege"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphpass"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphboard"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphstate"></div>
+                                            </td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpicollege"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpipass"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpiboard"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpistate"></div>
-                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Subjects</td>
+                                            <td>Year of Passing</td>
+                                            <td>Maximum Marks</td>
+                                            <td>Obtained Marks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dphsub"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphyp"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphmm"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dphom"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stream</td>
+                                            <td colspan="3">
+                                                <div id="dphstream"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Intermediate /(10+2) Equivalent</td>
+                                        </tr>
+                                        <tr>
+                                            <td>College</td>
+                                            <td>Passed/Appearing</td>
+                                            <td>Board</td>
+                                            <td>State of Qualifying</td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>Subjects</td>
-                                                <td>Year of Passing</td>
-                                                <td>Maximum Marks</td>
-                                                <td>Obtained Marks</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpisub"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpiyp"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpimm"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpiom"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Stream</td>
-                                                <td colspan="3">
-                                                    <div id="dpistream"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Diploma</td>
-                                            </tr>
-                                            <tr>
-                                                <td>College</td>
-                                                <td>Passed/Appearing</td>
-                                                <td>Stream</td>
-                                                <td>State of Qualifying</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpicollege"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpipass"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpiboard"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpistate"></div>
+                                            </td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpdcollege"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdpass"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdstream"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdstate"></div>
-                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Subjects</td>
+                                            <td>Year of Passing</td>
+                                            <td>Maximum Marks</td>
+                                            <td>Obtained Marks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpisub"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpiyp"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpimm"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpiom"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stream</td>
+                                            <td colspan="3">
+                                                <div id="dpistream"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Diploma</td>
+                                        </tr>
+                                        <tr>
+                                            <td>College</td>
+                                            <td>Passed/Appearing</td>
+                                            <td>Stream</td>
+                                            <td>State of Qualifying</td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>Subjects</td>
-                                                <td>Year of Passing</td>
-                                                <td>Maximum Marks</td>
-                                                <td>Obtained Marks</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpdsub"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdyp"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdmm"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpdom"></div>
-                                                </td>
-                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpdcollege"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdpass"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdstream"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdstate"></div>
+                                            </td>
 
-                                            <tr>
-                                                <td colspan="6" style="text-align: left; font-weight: bold">Graduation</td>
-                                            </tr>
-                                            <tr>
-                                                <td>College</td>
-                                                <td>Passed/Appearing</td>
-                                                <td>Stream</td>
-                                                <td>State of Qualifying</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Subjects</td>
+                                            <td>Year of Passing</td>
+                                            <td>Maximum Marks</td>
+                                            <td>Obtained Marks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpdsub"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdyp"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdmm"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpdom"></div>
+                                            </td>
+                                        </tr>
 
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpgcollege"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgpass"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgstream"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgstate"></div>
-                                                </td>
+                                        <tr>
+                                            <td colspan="6" style="text-align: left; font-weight: bold">Graduation</td>
+                                        </tr>
+                                        <tr>
+                                            <td>College</td>
+                                            <td>Passed/Appearing</td>
+                                            <td>Stream</td>
+                                            <td>State of Qualifying</td>
 
-                                            </tr>
-                                            <tr>
-                                                <td>Subjects</td>
-                                                <td>Year of Passing</td>
-                                                <td>Maximum Marks</td>
-                                                <td>Obtained Marks</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div id="dpgsub"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgyp"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgmm"></div>
-                                                </td>
-                                                <td>
-                                                    <div id="dpgom"></div>
-                                                </td>
-                                            </tr>
-                                            <tr style="vertical-align: middle">
-                                                <td colspan="2" style="vertical-align: middle">
-                                                    <input type="checkbox" class="isddlvalid" id="chkfinal" />&nbsp;I certify that I have filled the form myself and I have made all the entries in this form. No request shall be made for any change what so ever.</td>
-                                                <td style="text-align: center;">
-                                                    <img id="dvpsign" src="1.jpeg" height="50px" width="120px" /><br />
-                                                    (Signature)
-                                                </td>
-                                                <td style="text-align: center; width: 50px">
-                                                    <img id="dvpthumb" src="1.jpeg" height="50px" width="120px" />
-                                                    <br />
-                                                    (Thumb)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="4" style="vertical-align: middle; padding: 5px">
-                                                    <div class="pull-right nprintdiv">
-                                                        <button id="finalsubmit" disabled="disabled" class="btn btn-outline-primary btn-lg btn-flat shadow nav-border">Final Submit</button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <%--<table width="100%" id="tblpdetails" class="table-striped">
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpgcollege"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgpass"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgstream"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgstate"></div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Subjects</td>
+                                            <td>Year of Passing</td>
+                                            <td>Maximum Marks</td>
+                                            <td>Obtained Marks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="dpgsub"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgyp"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgmm"></div>
+                                            </td>
+                                            <td>
+                                                <div id="dpgom"></div>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle">
+                                            <td colspan="2" style="vertical-align: middle">
+                                                <input type="checkbox" class="isddlvalid" id="chkfinal" />&nbsp;I certify that I have filled the form myself and I have made all the entries in this form. No request shall be made for any change what so ever.</td>
+                                            <td style="text-align: center;">
+                                                <img id="dvpsign" src="1.jpeg" height="50px" width="120px" /><br />
+                                                (Signature)
+                                            </td>
+                                            <td style="text-align: center; width: 50px">
+                                                <img id="dvpthumb" src="1.jpeg" height="50px" width="120px" />
+                                                <br />
+                                                (Thumb)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" style="vertical-align: middle; padding: 5px">
+                                                <div class="pull-right nprintdiv">
+                                                    <button id="finalsubmit" disabled="disabled" class="btn btn-outline-primary btn-lg btn-flat shadow nav-border">Final Submit</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <%--<table width="100%" id="tblpdetails" class="table-striped">
                                         <tr style="vertical-align: middle">
                                             <td>Application Number</td>
                                             <td colspan="2">
@@ -2096,11 +2175,11 @@
                                         </tr>
 
                                     </table>--%>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -2159,20 +2238,19 @@
     <hr />
     <script src="../plug/jquery/jquery.js"></script>
     <script src="../plug/jquery/jquery.cookie.js"></script>
-    <script src="data_script/update_details.js"></script>
-    <script src="data_script/updateaddress.js"></script>
-    <script src="data_script/update_qualification.js"></script>
-    <script src="data_script/uploaddoc.js"></script>
-    <script src="data_script/update_center.js"></script>
-    <script src="data_script/getall.js"></script>
-    <script src="data_script/event.js"></script>
-    <script src="data_script/Instruction.js"></script>
-    <script src="data_script/submit.js"></script>
-	<script src="data_script/pay.js"></script>
-	<script src="data_script/step.js"></script>
-    <script>
+    <script src="data_script/update_details.js?v=2.1.0"></script>
+    <script src="data_script/updateaddress.js?v=2.1.0"></script>
+    <script src="data_script/update_qualification.js?v=2.1.0"></script>
+    <script src="data_script/uploaddoc.js?v=2.2.1"></script>
+    <script src="data_script/update_center.js?v=2.1.0"></script>
+    <script src="data_script/getall.js?v=2.1.0"></script>
+    <script src="data_script/event.js?v=2.1.0"></script>
+    <script src="data_script/Instruction.js?v=2.1.0"></script>
+    <script src="data_script/submit.js?v=2.1.0"></script>
+    <script src="data_script/pay.js?v=2.1.0"></script>
+    <script src="data_script/step.js?v=2.1.0"></script>
+    <script src="data_script/disabled.js?v=2.2.1"></script>
 
-</script>
     <script>
         $('#btnpay').click(function () {
             debugger;

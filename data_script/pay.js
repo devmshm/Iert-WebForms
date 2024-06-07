@@ -8,9 +8,9 @@ $(document).ajaxStart(function () {
 });
 
 $(document).ready(function () {
-	$('#paystatus').html('pending');
+    $('#paystatus').html('pending');
     payInfo();
-	payInfo1();
+    payInfo1();
 });
 
 function payInfo() {
@@ -30,10 +30,11 @@ function payInfo() {
                 $('#refid').html(value.refid);
                 $('#paydate').html(value.paydate);
                 $('#dvpaystatus').html(value.pstatus);
-				if(value.pstatus=="Success"){
-					stepstatus();
-				$('#btnpay').hide();
-				}
+                if (value.pstatus == "Success") {
+                    stepstatus();
+                    //stepstatus1();
+                    $('#btnpay').hide();
+                }
 
             })
         },
@@ -73,6 +74,7 @@ function payInfo1() {
 					<td>'+ value.pstatus + '</td>\
                     <td>' + value.refid + '</td>\
                     <td>' + value.paydate + '</td></tr>')
+
             })
         },
         error: function (r) {

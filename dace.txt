@@ -1,0 +1,8 @@
+Admin Login:
+https://dace.recruitmentsportal.in/adminlogin.aspx
+
+
+Username: daceadmin
+Password: daceadmin@123
+
+$("#dpcity4p").html(value.center4);

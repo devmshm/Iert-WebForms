@@ -295,12 +295,18 @@ function centerpInfo() {
                 $("#dpcity2").html(value.center2);
                 $("#dpcity3").html(value.center3);
                 $("#dpcity4").html(value.center4);
+                $("#dpcity5").html(value.center5);
+                $("#dpcity6").html(value.center6);
+                $("#dpcity7").html(value.center7);
 
                 //print
                 $("#dpcity1p").html(value.center1);
                 $("#dpcity2p").html(value.center2);
                 $("#dpcity3p").html(value.center3);
                 $("#dpcity4p").html(value.center4);
+                $("#dpcity5p").html(value.center5);
+                $("#dpcity6p").html(value.center6);
+                $("#dpcity7p").html(value.center7);
 
             })
         },

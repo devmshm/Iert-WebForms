@@ -53,8 +53,8 @@
             <div class="container">
                 <header class="row top-menu-top">
                     <div class="accounts col-md-9 col-6">
-                        <li class="top_li"><span class="fa fa-phone"></span><a href="tel:+142 5897555">Technical Helpline : &nbsp;8601111522 (11:00 A.M to 5:00 P.M)</a> </li>
-                        <li class="top_li1"><span class="fa fa-envelope-o"></span><a href="mailto:helpdesk@iertentrance.in" class="mail">helpdesk@iertentrance.in</a></li>
+                        <%--<li class="top_li"><span class="fa fa-phone"></span><a href="tel:+142 5897555">Technical Helpline : &nbsp;8601111522 (11:00 A.M to 5:00 P.M)</a> </li>--%>
+                        <li class="top_li1"><span class="fa fa-envelope-o"></span><a href="mailto:helpdesk2024@iertentrance.in" class="mail">helpdesk2024@iertentrance.in</a></li>
                     </div>
                     <div class="social-top col-md-3 col-6">
                         <a href="../register.aspx" target="_blank" class="btn btn-secondary btn-theme4">Apply Now</a>

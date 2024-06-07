@@ -207,9 +207,9 @@
                                     <table class="table-bordered table-striped ">
                                         <tr>
                                             <td>1.</td>
-                                            <td>All the information regarding courses, guidelines for on line filling of application form, payment of fee and procedure of online submission of application for IERT Entrance Examination-2023 are available in the Information Brochure available on website <a href="www.iertentrance.in">www.iertentrance.in</a> only.
+                                            <td>All the information regarding courses, guidelines for on line filling of application form, payment of fee and procedure of online submission of application for IERT Entrance Examination-2024 are available in the Information Brochure available on website <a href="www.iertentrance.in">www.iertentrance.in</a> only.
                             <br />
-                                                आई०ई०आर०टी प्रवेश परीक्षा- २०२३ में आवेदन करने के लिए आधिकारिक वेबसाइट www.iertentrance.in है I ऑनलाइन आवेदन के लिए आवश्यक समस्त सूचनाएं केवल इसी वेबसाइट <a href="https://www.iertentrance.in">www.iertentrance.in</a>
+                                                आई०ई०आर०टी प्रवेश परीक्षा- 2024 में आवेदन करने के लिए आधिकारिक वेबसाइट www.iertentrance.in है I ऑनलाइन आवेदन के लिए आवश्यक समस्त सूचनाएं केवल इसी वेबसाइट <a href="https://www.iertentrance.in">www.iertentrance.in</a>
                                             पर ही उपलब्ध है I
                                         </tr>
                                         <tr>
@@ -227,31 +227,31 @@
                                         </tr>
                                         <tr>
                                             <td>4.</td>
-                                            <td>Candidates must ensure that he/she has read each and every information regarding courses and admission procedure rules and regulations laid down in the Information Brochure before filling the ON-LINE Application Form for IERT ENTRANCE EXAMINATION-2023. The institute will not be responsible for any wrong/incorrect information furnished by the candidate(s) in their ON-LINE application form.
+                                            <td>Candidates must ensure that he/she has read each and every information regarding courses and admission procedure rules and regulations laid down in the Information Brochure before filling the ON-LINE Application Form for IERT ENTRANCE EXAMINATION-2024. The institute will not be responsible for any wrong/incorrect information furnished by the candidate(s) in their ON-LINE application form.
 	<br />
                                                 अभ्यर्थी विवरणिका में दिए गए सभी निर्देशों, नियमों एवं उपबंधो को पढ़कर ही आन-लाइन आवेदन भरना सुनिश्चित करें I अभ्यर्थी द्वारा आवेदन में दर्ज की गई किसी भी गलत/अशुद्ध प्रविष्टियों के लिए संस्थान किसी भी प्रकार से उत्तरदायी नही होगा I
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>5.</td>
-                                            <td>All the candidates, who have submitted the online application properly and paid the application fee till last date, will only be allowed to appear in IERT ENTRANCE EXAMINATION-2023and their Admit Cards will be uploaded on the website in accordance to the schedule mentioned on the website <a href="www.iertentrance.in">www.iertentrance.in</a>
+                                            <td>All the candidates, who have submitted the online application properly and paid the application fee till last date, will only be allowed to appear in IERT ENTRANCE EXAMINATION-2024and their Admit Cards will be uploaded on the website in accordance to the schedule mentioned on the website <a href="www.iertentrance.in">www.iertentrance.in</a>
                                                 <br />
-                                                आई०ई०आर०टी प्रवेश परीक्षा- २०२३ में आवेदन करने एवं आवेदन शुल्क जमा करने की अंतिम तिथि तक ही आवेदन करने एवं आवेदन शुल्क जमा करने वाले अभ्यार्थियों को ही प्रवेश परीक्षा में सम्मिलित किया जायेगा तथा इनके ही प्रवेश-पत्र निर्धारित वेबसाइट www.iertentrance.in पर निर्धारित समय पर अपलोड किया जायेगा I
+                                                आई०ई०आर०टी प्रवेश परीक्षा- 2024 में आवेदन करने एवं आवेदन शुल्क जमा करने की अंतिम तिथि तक ही आवेदन करने एवं आवेदन शुल्क जमा करने वाले अभ्यार्थियों को ही प्रवेश परीक्षा में सम्मिलित किया जायेगा तथा इनके ही प्रवेश-पत्र निर्धारित वेबसाइट www.iertentrance.in पर निर्धारित समय पर अपलोड किया जायेगा I
                                         
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>6.</td>
-                                            <td>The Application fee forIERT ENTRANCE EXAMINATION-2023is Rs 1350/- (Rs. One thousand three hundred fifty only) for all categories of applicants (i.e. General, OBC, SC/ST and Girls/ EWS). The application fee can be deposited Online (through Credit Card/Debit Card/Net Banking) or by depositing cash through prescribed challan in any branch of the Allahabad Bank in India. Service charges of the bank as per the guidelines of the Reserve Bank of India against each such transaction have to be paid by the candidate in addition to the application fee.
+                                            <td>The Application fee forIERT ENTRANCE EXAMINATION-2024is Rs 1350/- (Rs. One thousand three hundred fifty only) for all categories of applicants (i.e. General, OBC, SC/ST and Girls/ EWS). The application fee can be deposited Online (through Credit Card/Debit Card/Net Banking) or by depositing cash through prescribed challan in any branch of the Allahabad Bank in India. Service charges of the bank as per the guidelines of the Reserve Bank of India against each such transaction have to be paid by the candidate in addition to the application fee.
                                 <br />
-                                                आई०ई०आर०टी प्रवेश परीक्षा-2023 के लिए आवेदन शुल्क सभी श्रेणियों के आवेदकों (यानी सामान्य, ओबीसी, एससी/एसटी और लड़कियों/ईडब्ल्यूएस) के लिए 1350/- रुपये (केवल एक हजार तीन सौ पचास रुपये) है। आवेदन शुल्क ऑनलाइन (क्रेडिट कार्ड/डेबिट कार्ड/नेट बैंकिंग के माध्यम से) या भारत में इलाहाबाद बैंक की किसी भी शाखा में निर्धारित चालान के माध्यम से नकद जमा करके जमा किया जा सकता है। भारतीय रिज़र्व बैंक के दिशा-निर्देशों के अनुसार ऐसे प्रत्येक लेनदेन के लिए बैंक के सेवा शुल्क का भुगतान उम्मीदवार को आवेदन शुल्क के अतिरिक्त करना होगा।
+                                                आई०ई०आर०टी प्रवेश परीक्षा-2024 के लिए आवेदन शुल्क सभी श्रेणियों के आवेदकों (यानी सामान्य, ओबीसी, एससी/एसटी और लड़कियों/ईडब्ल्यूएस) के लिए 1350/- रुपये (केवल एक हजार तीन सौ पचास रुपये) है। आवेदन शुल्क ऑनलाइन (क्रेडिट कार्ड/डेबिट कार्ड/नेट बैंकिंग के माध्यम से) या भारत में इलाहाबाद बैंक की किसी भी शाखा में निर्धारित चालान के माध्यम से नकद जमा करके जमा किया जा सकता है। भारतीय रिज़र्व बैंक के दिशा-निर्देशों के अनुसार ऐसे प्रत्येक लेनदेन के लिए बैंक के सेवा शुल्क का भुगतान उम्मीदवार को आवेदन शुल्क के अतिरिक्त करना होगा।
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>7.</td>
-                                            <td>Candidates are allowed to submit only one application form for each course offered in IERT ENTRANCE EXAMINATION-2023. If any candidate wishes to apply for more than one course, then he/she must apply separately by filling up another application form and deposit the separate application fee for this additional course.
+                                            <td>Candidates are allowed to submit only one application form for each course offered in IERT ENTRANCE EXAMINATION-2024. If any candidate wishes to apply for more than one course, then he/she must apply separately by filling up another application form and deposit the separate application fee for this additional course.
 	<br />
-                                                उम्मीदवारों को आई०ई०आर०टी प्रवेश परीक्षा-2023 में प्रस्तावित प्रत्येक पाठ्यक्रम के लिए केवल एक आवेदन पत्र जमा करने की अनुमति है। यदि कोई अभ्यर्थी एक से अधिक पाठ्यक्रम के लिए आवेदन करना चाहता है, तो उसे दूसरा आवेदन पत्र भरकर अलग से आवेदन करना होगा और इस अतिरिक्त पाठ्यक्रम के लिए अलग आवेदन शुल्क जमा करना होगा।
+                                                उम्मीदवारों को आई०ई०आर०टी प्रवेश परीक्षा-2024 में प्रस्तावित प्रत्येक पाठ्यक्रम के लिए केवल एक आवेदन पत्र जमा करने की अनुमति है। यदि कोई अभ्यर्थी एक से अधिक पाठ्यक्रम के लिए आवेदन करना चाहता है, तो उसे दूसरा आवेदन पत्र भरकर अलग से आवेदन करना होगा और इस अतिरिक्त पाठ्यक्रम के लिए अलग आवेदन शुल्क जमा करना होगा।
                                             </td>
                                         </tr>
                                         <tr>
@@ -306,9 +306,9 @@
                                         </tr>
                                         <tr>
                                             <td>14.</td>
-                                            <td>FOR IERT ENTRANCE EXAMINATION – 2023, visit the official website <a href="www.iertentrance.in">www.iertentrance.in</a>and click on the link APPLY NOW in front of the course you wish to apply. 
+                                            <td>FOR IERT ENTRANCE EXAMINATION – 2024, visit the official website <a href="www.iertentrance.in">www.iertentrance.in</a>and click on the link APPLY NOW in front of the course you wish to apply. 
 	<br />
-                                                आई०ई०आर०टी प्रवेश परीक्षा - 2023 के लिए, आधिकारिक वेबसाइट www.iertentrance.in पर जाएं और जिस कोर्स के लिए आप आवेदन करना चाहते हैं, उसके सामने Apply Now लिंक पर क्लिक करें।
+                                                आई०ई०आर०टी प्रवेश परीक्षा - 2024 के लिए, आधिकारिक वेबसाइट www.iertentrance.in पर जाएं और जिस कोर्स के लिए आप आवेदन करना चाहते हैं, उसके सामने Apply Now लिंक पर क्लिक करें।
                                         </tr>
                                         <tr>
                                             <td>15.</td>
@@ -330,22 +330,22 @@
                                         </tr>
                                         <tr>
                                             <td>18</td>
-                                            <td>Dispute(s) regarding the matter related to IERT Entrance Examination -2023, will be decided by The Hon’ble High Court of Allahabad.
+                                            <td>Dispute(s) regarding the matter related to IERT Entrance Examination -2024, will be decided by The Hon’ble High Court of Allahabad.
                                 <br />
-                                                आई0ई0आर0टी0 प्रवेश परीक्षा-2023 से सम्बन्धित किसी विवाद का न्यायिक निस्तारण हेतु केवल माननीय इलाहाबाद उच्च न्यायालय ही होगा क्योंकि यह संस्थान प्रयागराज जनपद में अवस्थित है।
+                                                आई0ई0आर0टी0 प्रवेश परीक्षा-2024 से सम्बन्धित किसी विवाद का न्यायिक निस्तारण हेतु केवल माननीय इलाहाबाद उच्च न्यायालय ही होगा क्योंकि यह संस्थान प्रयागराज जनपद में अवस्थित है।
                                         </tr>
                                         <tr>
                                             <td>19.</td>
-                                            <td style="text-align: center">All correspondence related to IERT ENTRANCE EXAMINATION-2023 should be sent through official email ID mentioned in the website <a href="www.iertentrance.in">www.iertentrance.in</a>  and will be  addressed to:
+                                            <td style="text-align: center">All correspondence related to IERT ENTRANCE EXAMINATION-2024 should be sent through official email ID mentioned in the website <a href="www.iertentrance.in">www.iertentrance.in</a>  and will be  addressed to:
                              <span style="font-weight: bold">
                                  <br />
                                  Co-ordinator<br />
-                                 IERT ENTRANCE EXAMINATION-2023<br />
+                                 IERT ENTRANCE EXAMINATION-2024<br />
                                  Institute of Engineering & Rural Technology,<br />
                                  26 Chatham Line, Prayagraj-211002, U.P.  (India).<br />
-                                 आई0ई0आर0टी0 प्रवेश परीक्षा-2023 से सम्बन्धित पत्राचार हेतु पता-<br />
+                                 आई0ई0आर0टी0 प्रवेश परीक्षा-2024 से सम्बन्धित पत्राचार हेतु पता-<br />
                                  समन्व्ययक<br />
-                                 आई0ई0आर0टी0 प्रवेश परीक्षा-2023<br />
+                                 आई0ई0आर0टी0 प्रवेश परीक्षा-2024<br />
                                  इन्स्टीट्यूट ऑफ इन्जीनियरिंग एण्ड रूरल टेक्नॉलॉजी<br />
                                  26 चैथम लाइन, प्रयागराज-211002, उ0प्र0 (भारत)<br />
                              </span>
@@ -447,7 +447,7 @@
                         const birthdateObj = new Date(birthdate);
 
                         // get the current date
-                        const currentDate = new Date("01/07/2023");
+                        const currentDate = new Date("01/07/2024");
 
                         // calculate the difference in milliseconds between the two dates
                         const diffMs = currentDate.getTime() - birthdateObj.getTime();
@@ -459,7 +459,7 @@
 
                         ////var userBirthdate = "08/04/1990";
                         ////var age = calculateAge(userBirthdate);
-                        ////console.log(age); // Output: 33 (if current year is 2023)
+                        ////console.log(age); // Output: 33 (if current year is 2024)
 
                         ////const dob = '1990-05-10';
 

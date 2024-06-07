@@ -21,7 +21,7 @@ public partial class makepay : System.Web.UI.Page
             }
             else if ((Session["ugatrollno"] != null))
             {
-                using (SqlDataAdapter da = new SqlDataAdapter("SELECT *FROM bcom where  UGATROLLNO='" + Session["ugatrollno"].ToString() + "'", new SqlConnection(connect.Connect)))
+                using (SqlDataAdapter da = new SqlDataAdapter("SELECT *FROM bcom where  UGATROLLNO='" + Session["ugatrollno"].ToString() + "'", new SqlConnection(clsConnect.Connect)))
                 {
                  
                     DataTable dt = new DataTable();

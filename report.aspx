@@ -15,11 +15,12 @@
             #tbllist {
                 max-width: 900px;
                 width: 100%;
-                position: relative;				
+                position: relative;
             }
-			 #tbllist td,th{
-			vertical-align:middle;
-			}
+
+                #tbllist td, th {
+                    vertical-align: middle;
+                }
         }
     </style>
 
@@ -38,7 +39,7 @@
                         Registration Report
                     </div>
                     <div class="pull-right nprintdiv">
-                        <div class="btn btn-success btn-sm shadow"  id="btnPrint">
+                        <div class="btn btn-success btn-sm shadow" id="btnPrint">
                             <i class="fa fa-print"></i>&nbsp;Print
                         </div>
                     </div>
@@ -48,19 +49,19 @@
                 <div class="table table-responsive no-padding shadow">
                     <table width="100%" class="table-striped table-bordered" id="tbllist">
                         <thead>
-                            <tr style="text-align:center;">
-                                <td style="vertical-align:middle;">#</td>
-                                <td style="vertical-align:middle;">Course</td>
-								 <td style="vertical-align:middle;">Total Registration</td>
-                                <td style="vertical-align:middle;">Registered But Not Updated Yet</td>
-                                <td style="vertical-align:middle;">Personal Details Updated</td>
-                                <td style="vertical-align:middle;">Adress Details Updated</td>
-                                <td style="vertical-align:middle;">Educational Details Updated</td>
-                                <td style="vertical-align:middle;">Photo Updated</td>
-                                <td style="vertical-align:middle;">Signature Updated</td>
-                                <td style="vertical-align:middle;">Thumb impresssion Updated</td>
-                                <td style="vertical-align:middle;">Payment Done</td>
-                                <td style="vertical-align:middle;">Submitted</td>
+                            <tr style="text-align: center;">
+                                <td style="vertical-align: middle;">#</td>
+                                <td style="vertical-align: middle;">Course</td>
+                                <td style="vertical-align: middle;">Total Registration</td>
+                                <td style="vertical-align: middle;">Registered But Not Updated Yet</td>
+                                <td style="vertical-align: middle;">Personal Details Updated</td>
+                                <td style="vertical-align: middle;">Adress Details Updated</td>
+                                <td style="vertical-align: middle;">Educational Details Updated</td>
+                                <td style="vertical-align: middle;">Photo Updated</td>
+                                <td style="vertical-align: middle;">Signature Updated</td>
+                                <td style="vertical-align: middle;">Thumb impresssion Updated</td>
+                                <td style="vertical-align: middle;">Payment Done</td>
+                                <td style="vertical-align: middle;">Submitted</td>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -69,6 +70,6 @@
             </div>
         </div>
     </div>
-    <script src="data_script/report.js"></script>
-   
+    <script src="data_script/report.js?v=1.3.0"></script>
+
 </asp:Content>

@@ -29,10 +29,12 @@ $(document).ready(function () {
                         createCookie('dataString', JSON.stringify(r));
                         $.each(r, function () {
                             if (r[0].UTYP === "1") {
-                                window.location = "https://iertentrance.in/registration.aspx";// r[0].navigation;
-                               // window.open("http://localhost:50435/registration.aspx");
+                                window.location = "http://localhost:54935/registration.aspx";
                             }
-                            else { }
+                            else if (r[0].UTYP === "2") {
+                                r[0].navigation;
+                                window.open("http://localhost:54935/update.aspx");
+                            }
                         });
                     }
 

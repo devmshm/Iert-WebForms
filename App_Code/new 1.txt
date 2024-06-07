@@ -1,0 +1,233 @@
+<asp:GridView ID="gdvDetail" runat="server" AutoGenerateColumns="false" GridLines="None" BorderStyle="None" OnRowDataBound="ProductList_RowDataBound">
+                                <Columns>
+                                    <asp:TemplateField>
+                                        <ItemTemplate>
+                                            <div id="div1" style="width: 1300px">
+                                                <div style="text-align: center; width: 1197px; margin-left: 3.1em; margin-top: 70px;">
+                                                    <div style="font-size: 23px; font-weight: bold">
+                                                        <%--UNIVERSITY OF ALLAHABAD--%>
+                                                        <div style="float: left; font-size: 30px; margin-left: 138px; font-family: 'MICR Encoding'"><%#DataBinder.Eval(Container.DataItem, "SERIALNO")%></div>
+                                                        <div style="float: right; font-size: 19px;"><%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></div>
+                                                        <div style="clear: both;"></div>
+                                                    </div>
+                                                </div>
+                                                <div style="text-align: center; width: 1150px; margin-top: 50px">
+                                                    <div style="font-size: 23px; font-weight: bold">
+                                                        <%--UNIVERSITY OF ALLAHABAD--%>
+                                                        <%-- <p style="float: left;margin-left:10em; font-size: 18px">&nbsp;&nbsp;<%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></p>--%>
+                                                        <p style="float: right; font-size: 18px">
+                                                            &nbsp;&nbsp;
+                                            <asp:PlaceHolder ID="plBarCode" runat="server"></asp:PlaceHolder>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+
+                                                <div style="float: left; width: 1150px; margin-top: 6px; margin-left: 5.0em">
+                                                    <div>
+                                                        <%--UNIVERSITY OF ALLAHABAD--%>
+                                                        <%-- <p style="float: left;margin-left:10em; font-size: 18px">&nbsp;&nbsp;<%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></p>--%>
+                                                        <p style="text-align: center; font-weight: bold; font-size: 30px; font-family: Arial">
+
+                                                            <%#DataBinder.Eval(Container.DataItem, "NAMEOFDEGREEINSANSKRIT")%>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div style="border: none 1px #000000;">
+                                                    <div style="width: 1000px; margin-left: auto; margin-right: auto; clear: both;">
+                                                        <div style="float: left; width: 1000px; margin-top: 1px;">
+                                                            <div style="margin-top: 2px;">
+                                                                <div style="text-align: justify; width: 950px; font-size: 21px; margin-left: 1em">
+                                                                    <div style="float: left; font-weight: bold">
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; प्रमाणीक्रियते &nbsp;&nbsp;यत्&nbsp;&nbsp;  श्री&nbsp;/&nbsp;सुश्री&nbsp;/&nbsp;श्रीमती
+                                                                    </div>
+                                                                    <div style="float: left; width: 500px; margin-left: 10px; text-align: center; font-size: 22px; font-weight: bold; font-family: Cambria; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "nameinsanskrit")%>
+                                                                    </div>
+
+                                                                    <div style="float: left; font-weight: bold">
+                                                                        &nbsp;&nbsp; इति 
+                                                                    </div>
+                                                                    <br />
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold">विश्‍वविद्यालयस्यास्य</div>
+                                                                    <div style="float: left; width: 215px; margin-top: 15px; margin-left: 10px; font-weight: bold; font-family: Arial; font-size: 22px; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "year")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold">&nbsp;&nbsp;तमस्य &nbsp;ख्रीष्‍टाब्दस्य  &nbsp; परीक्षां</div>
+                                                                    <div style="float: left; width: 208px; margin-left: 10px; font-family: Cambria; margin-top: 15px; font-weight: bold; text-align: center; font-weight: bold; font-size: 22px; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "divisioninsanskrit")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold">&nbsp;&nbsp;&nbsp;श्रेण्यां </div>
+                                                                    <br />
+                                                                    <div style="text-align: justify; width: 850px; font-size: 20px; margin-left: 0em">
+                                                                        <div style="float: left; font-weight: bold; width: 80px; margin-top: 20px;">
+                                                                            समुत्तीर्य
+                                                                        </div>
+                                                                        <div style="float: left; width: 508px; font-family: Cambria; margin-top: 20px; text-align: center; font-weight: bold; font-size: 22px; border-bottom: dotted">
+                                                                            <%#DataBinder.Eval(Container.DataItem, "NAMEOFDEGREEINSANSKRIT")%>
+                                                                        </div>
+                                                                        <div style="float: left; font-weight: bold; margin-top: 20px;">
+                                                                            &nbsp;&nbsp;&nbsp;इत्युपाधिं
+                                                        &nbsp;प्राप्‍नोदिति &nbsp;| 
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
+                                                                <br />
+
+                                                                <div style="float: left; width: 1000px; margin-left: 1.5em">
+                                                                    <p style="font-size: 22px; font-weight: bold;">
+                                                                        विषयः &nbsp;-
+                                                        <%#DataBinder.Eval(Container.DataItem, "subjectinsanskrit")%>
+                                                                    </p>
+                                                                </div>
+                                                                <div style="clear: both;">
+                                                                </div>
+                                                            </div>
+                                                            <br />
+                                                            <div style="float: left; width: 850px; margin-top: 4px; margin-left: 5.5em">
+                                                                <div>
+                                                                    <%--UNIVERSITY OF ALLAHABAD--%>
+                                                                    <%-- <p style="float: left;margin-left:10em; font-size: 18px">&nbsp;&nbsp;<%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></p>--%>
+                                                                    <p style="text-align: center; font-weight: bold; font-size: 30px; font-family: Arial">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "NAMEOFDEGREEINHINDI")%>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div style="margin-top: 5px;">
+                                                                <div style="text-align: justify; width: 950px; font-weight: bold; font-size: 21px; margin-left: 1em">
+                                                                    <div style="float: left;">
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;प्रमाणित किया जाता है कि श्री&nbsp;/&nbsp;&nbsp;सुश्री&nbsp;/&nbsp;&nbsp;श्रीमती
+                                                                    </div>
+                                                                    <div id="sp1" style="float: left; width: 407px; margin-left: 7px; text-align: center; font-weight: bold; font-size: 22px; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "nameinhindi")%>
+                                                                    </div>
+                                                                    <div style="float: left;">
+                                                                        &nbsp;&nbsp;   को&nbsp; इस &nbsp;&nbsp;
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; text-align: left; font-weight: bold;">
+                                                                        विश्‍वविद्यालय की  वर्ष
+                                                                    </div>
+                                                                    <div style="float: left; width: 176px; margin-left: 7px; margin-top: 15px; font-size: 22px; font-family: Arial; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "year")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold; text-align: left">&nbsp;&nbsp;&nbsp;की &nbsp;परीक्षा&nbsp;&nbsp; </div>
+                                                                    <div style="float: left; width: 196px; margin-left: 7px; margin-right: 7px; margin-top: 15px; font-weight: bold; font-size: 22px; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "divisioninhindi")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold; text-align: center">श्रेणी&nbsp;&nbsp; में &nbsp;&nbsp;उत्तीर्ण &nbsp;&nbsp; होने &nbsp;पर</div>
+                                                                    <div style="float: left; width: 522px; margin-top: 15px; text-align: center; font-size: 22px; font-weight: bold; border-bottom: dotted; margin-left: 0.2em;">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "NAMEOFDEGREEINHINDI")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold;">
+                                                                        &nbsp; की &nbsp;&nbsp; उपाधि &nbsp;&nbsp;प्रदान&nbsp;&nbsp; की &nbsp;&nbsp; गई&nbsp;&nbsp;|
+                                                                    </div>
+                                                                    <br />
+                                                                    <br />
+
+                                                                    <div style="float: left; width: 1000px; margin-left: 0em">
+                                                                        <p style="font-size: 22px; font-weight: bold;">विषय&nbsp;-&nbsp; <%#DataBinder.Eval(Container.DataItem, "subjectinhindi")%></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div style="clear: both;">
+                                                                </div>
+                                                            </div>
+                                                            <br />
+                                                            <div style="float: left; width: 900px; margin-top: 4px; margin-left: 5em">
+                                                                <div>
+                                                                    <%--UNIVERSITY OF ALLAHABAD--%>
+                                                                    <%-- <p style="float: left;margin-left:10em; font-size: 18px">&nbsp;&nbsp;<%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></p>--%>
+                                                                    <p style="text-align: center; font-weight: bold; font-size: 30px; font-family: Arial;">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "nameofdegree")%>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div style="margin-top: 5px;">
+                                                                <div style="text-align: justify; width: 970px; font-size: 21px; font-family: Arial; margin-left: 0.5em">
+                                                                    <div style="float: left; font-weight: bold;">
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is to certify that Mr.&nbsp;/&nbsp; Ms.
+                                                                    </div>
+                                                                    <div style="float: left; width: 320px; margin-left: 10px; text-align: center; font-size: 22px; font-family: Cambria; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "name")%>
+                                                                    </div>
+                                                                    <div style="float: left; font-weight: bold;">
+                                                                        &nbsp;&nbsp;&nbsp;obtained the degree of 
+                                                                    </div>
+                                                                    <br />
+                                                                    <br />
+                                                                    <div style="float: left; width: 459px; font-size: 22px; font-family: Cambria; margin-top: 15px; margin-left: 0.3em; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "nameofdegree")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold; text-align: left">
+                                                                        &nbsp;&nbsp;  in the examination of year&nbsp;&nbsp;
+                                                                    </div>
+                                                                    <div style="float: left; width: 130px; margin-top: 15px; font-family: Cambria; font-size: 22px; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "year")%>
+                                                                    </div>
+                                                                    <div style="float: left; margin-top: 15px; font-weight: bold; text-align: left">
+                                                                        &nbsp;&nbsp;&nbsp;of  
+                                                                    </div>
+                                                                    </p>
+                                                    <br />
+                                                                    <br />
+                                                                    <div style="float: left; margin-top: 20px; font-weight: bold; margin-left: 0.2em; text-align: left">
+                                                                        this  University and was placed in&nbsp;
+                                                                    </div>
+                                                                    <div style="float: left; width: 250px; margin-left: 10px; font-family: Cambria; margin-top: 20px; font-size: 22px; text-align: center; font-weight: bold; border-bottom: dotted">
+                                                                        <%#DataBinder.Eval(Container.DataItem, "divisioninenglish")%>
+                                                                    </div>
+                                                                    <div style="float: left; font-weight: bold; margin-top: 20px;">
+                                                                        &nbsp;&nbsp;division.
+                                                                    </div>
+                                                                    <br />
+                                                                    <br />
+                                                                    <div style="float: left; font-family: Cambria; width: 1000px; margin-left: 0em">
+                                                                        <p style="font-size: 22px; font-weight: bold;">Subject&nbsp;-&nbsp; <%#DataBinder.Eval(Container.DataItem, "subject")%></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="clear: both;">
+                                                </div>
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <div style="float: left; width: 1200px; margin-left: 3.1em; margin-top: 20px;">
+                                                    <div style="font-size: 23px; font-weight: bold">
+                                                        <%--UNIVERSITY OF ALLAHABAD--%>
+                                                        <%-- <p style="float: left;margin-left:10em; font-size: 18px">&nbsp;&nbsp;<%#DataBinder.Eval(Container.DataItem, "enrolmentno")%></p>--%>
+                                                        <p style="text-align: center; font-size: 17px; font-family: Arial">
+                                                            विश्‍वविद्यालय  की मुद्रा द्वारा प्रदत्त 
+                                            <br />
+                                                            Given this day under the seal of the University
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                </Columns>
+                            </asp:GridView>

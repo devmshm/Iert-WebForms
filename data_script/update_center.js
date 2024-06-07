@@ -13,6 +13,9 @@ $('#btncenter').click(function () {
         center2: $('#ddlcenter2 option:selected').text(),
         center3: $('#ddlcenter3 option:selected').text(),
         center4: $('#ddlcenter4 option:selected').text(),
+        center5: $('#ddlcenter5 option:selected').text(),
+        center6: $('#ddlcenter6 option:selected').text(),
+        center7: $('#ddlcenter7 option:selected').text(),
     }
     $.ajax({
         type: "POST",
@@ -31,13 +34,12 @@ $('#btncenter').click(function () {
             docpInfo();
             edupInfo();
             centerpInfo();
-stepstatus();
+            stepstatus();
+            stepstatus1();
             $('#finallist').addClass("active");
             $('#centerlist').removeClass("active");
             $('#preview').addClass("active");
             $('#centerpref').removeClass("active");
-
-
         },
         error: function (r) {
         },
@@ -57,7 +59,6 @@ function centerInfo() {
         data: JSON.stringify(obj),
         contentType: "application/json;charset=utf-8",
         dataType: "json",
-
         success: function (Result) {
             Result = JSON.parse(Result.d);
             $.each(Result, function (key, value) {
@@ -65,6 +66,9 @@ function centerInfo() {
                 $("#lblcity2").html(value.center2);
                 $("#lblcity3").html(value.center3);
                 $("#lblcity4").html(value.center4);
+                $("#lblcity5").html(value.center5);
+                $("#lblcity6").html(value.center6);
+                $("#lblcity7").html(value.center7);
             })
         },
         error: function (r) {
@@ -92,12 +96,17 @@ function centerequired() {
     var city2 = $("#ddlcenter2 option:selected").val();
     var city3 = $("#ddlcenter3 option:selected").val();
     var city4 = $("#ddlcenter4 option:selected").val();
-
+    var city5 = $("#ddlcenter5 option:selected").val();
+    var city6 = $("#ddlcenter6 option:selected").val();
+    var city7 = $("#ddlcenter7 option:selected").val();
 
     if ((city1 === '-1')
         || (city2 === '-1')
         || (city3 === '-1')
-        || (city4 === '-1')) {
+        || (city4 === '-1')
+        || (city5 === '-1')
+        || (city6 === '-1')
+        || (city7 === '-1')) {
         error = 1;
         flag++;
         alert('Select All Preferences.');

@@ -16,7 +16,7 @@ public partial class paylog : System.Web.UI.Page
 
     protected void btnlog_Click(object sender, EventArgs e)
     {
-        using (SqlDataAdapter da = new SqlDataAdapter("SELECT *FROM bcom where  UGATROLLNO='" + txtroll.Text + "' and dob='" + txtname.Text + "'", new SqlConnection(connect.Connect)))
+        using (SqlDataAdapter da = new SqlDataAdapter("SELECT *FROM bcom where  UGATROLLNO='" + txtroll.Text + "' and dob='" + txtname.Text + "'", new SqlConnection(clsConnect.Connect)))
         {
 
             DataTable dt = new DataTable();

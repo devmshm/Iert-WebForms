@@ -22,7 +22,7 @@ public class clsConnect
 
     static clsConnect()
     {
-        Connect = @"user id=IERT_USER;data source=82.208.20.56;initial catalog=IERT;password=%p7eWf070;Integrated Security=false;";
+        Connect = @"user id=IERT_USER;data source=31.220.89.74 ;initial catalog=IERT;password=Gw794hu6%;Integrated Security=false;";
         //Connect = @"user id=acunox_shopistop; password=ngj3vuksplxbqofmrwhy;server=sql2012.dbsqlserver.com,1288; initial catalog=db_shopistop; integrated security=false;";
         //Connect = @"user id=sa; password=dataone;server=.; initial catalog=db_shopistop; integrated security=true;";
         EncriptpassPhrase = @"Pas5pr@se";

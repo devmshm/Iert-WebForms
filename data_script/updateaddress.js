@@ -52,8 +52,9 @@ $('#btnupdateAdd').click(function () {
             $('#updatemodal').modal();
             //alert('Address Details Updated');
             AddInfo();
-			stepstatus();
-            debugger;
+            stepstatus();
+            stepstatus1();
+          
             $('#edulist').addClass("active");
             $('#edulist').addClass("shadow");
             $('#addresslist').removeClass("active");

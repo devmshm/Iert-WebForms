@@ -137,7 +137,7 @@ public class clsReg
 
     public DataTable upbasic(register _update)
     {
-        SqlParameter[] arrParams = new SqlParameter[14];
+        SqlParameter[] arrParams = new SqlParameter[11];
         //string rowsaffected;
         int index = 0;
 
@@ -170,15 +170,15 @@ public class clsReg
         arrParams[index] = new SqlParameter("@Religion", SqlDbType.NVarChar);
         arrParams[index].Value = _update.Religion.ToUpper();
         index++;
-        arrParams[index] = new SqlParameter("@employed", SqlDbType.NVarChar);
-        arrParams[index].Value = _update.employed.ToUpper();
-        index++;
-        arrParams[index] = new SqlParameter("@posted", SqlDbType.NVarChar);
-        arrParams[index].Value = _update.posted.ToUpper();
-        index++;
-        arrParams[index] = new SqlParameter("@incomescale", SqlDbType.NVarChar);
-        arrParams[index].Value = _update.incomescale.ToUpper();
-        index++;
+        //arrParams[index] = new SqlParameter("@employed", SqlDbType.NVarChar);
+        //arrParams[index].Value = _update.employed.ToUpper();
+        //index++;
+        //arrParams[index] = new SqlParameter("@posted", SqlDbType.NVarChar);
+        //arrParams[index].Value = _update.posted.ToUpper();
+        //index++;
+        //arrParams[index] = new SqlParameter("@incomescale", SqlDbType.NVarChar);
+        //arrParams[index].Value = _update.incomescale.ToUpper();
+        //index++;
         arrParams[index] = new SqlParameter("@domicile", SqlDbType.NVarChar);
         arrParams[index].Value = _update.domicile.ToUpper();
         index++;
@@ -458,9 +458,10 @@ public class clsReg
     }
 
 
-    public DataTable center(string center1, string center2, string center3, string center4, string appno)
+    public DataTable center(string center1, string center2, string center3, string center4, string center5, string center6, string center7, string appno)
     {
-        SqlParameter[] arrParams = new SqlParameter[5];
+        
+        SqlParameter[] arrParams = new SqlParameter[8];
         //string rowsaffected;
         int index = 0;
 
@@ -480,6 +481,18 @@ public class clsReg
 
         arrParams[index] = new SqlParameter("@center4", SqlDbType.NVarChar);
         arrParams[index].Value = center4.ToUpper();
+        index++;
+
+        arrParams[index] = new SqlParameter("@center5", SqlDbType.NVarChar);
+        arrParams[index].Value = center5.ToUpper();
+        index++;
+
+        arrParams[index] = new SqlParameter("@center6", SqlDbType.NVarChar);
+        arrParams[index].Value = center6.ToUpper();
+        index++;
+
+        arrParams[index] = new SqlParameter("@center7", SqlDbType.NVarChar);
+        arrParams[index].Value = center7.ToUpper();
 
 
 
@@ -563,6 +576,56 @@ public class clsReg
         temp = ObjDataClass.ExecuteDataReader("UPDATEPASS", arrParams);
         //SendSms1(_cont, "Dear candidate, Your one time password for IERT is " + temp.Rows[0]["otp"] + ". IERT-RPREXM");
         return temp;
-    }											
+    }
+    public DataTable basic_correction(register _update)
+    {
+        SqlParameter[] arrParams = new SqlParameter[10];
+        //string rowsaffected;
+        int index = 0;
 
+        arrParams[index] = new SqlParameter("@Application_no", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Application_no;
+        index++;
+       
+        arrParams[index] = new SqlParameter("@DOB", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.DOB.ToUpper();
+        index++;
+        //
+        arrParams[index] = new SqlParameter("@Gender", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Gender.ToUpper();
+        index++;
+
+        arrParams[index] = new SqlParameter("@Category", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Category.ToUpper();
+        index++;
+
+        arrParams[index] = new SqlParameter("@Sub_category", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Sub_category.ToUpper();
+        index++;
+        arrParams[index] = new SqlParameter("@nationality", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Nationality.ToUpper();
+        index++;
+        arrParams[index] = new SqlParameter("@Religion", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.Religion.ToUpper();
+        index++;       
+        arrParams[index] = new SqlParameter("@domicile", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.domicile.ToUpper();
+        index++;
+        arrParams[index] = new SqlParameter("@ews", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.ews.ToUpper();
+        index++;
+        arrParams[index] = new SqlParameter("@caste", SqlDbType.NVarChar);
+        arrParams[index].Value = _update.caste.ToUpper();
+
+
+
+
+        DataTable tempdt = new DataTable();
+
+        CCDB.DataClass ObjDataClass = new CCDB.DataClass(clsConnect.Connect);
+        tempdt = ObjDataClass.ExecuteDataReader("CORRECT_DETAILS", arrParams);
+        // tempdt.Rows[0]["reg_id"].ToString();
+
+        return tempdt;
+    }
 }
